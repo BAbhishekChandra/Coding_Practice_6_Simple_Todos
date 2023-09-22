@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.li-container {
+  display: flex;
+  padding-bottom: 10px;
+  margin: 6px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.delete-button {
+  border: solid 2px #ff0b37;
+  color: #ff0b37;
+  border-radius: 10px;
+  padding: 0px 25px 0px 25px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+  .li-container {
+    padding-bottom: 8px;
+    margin: 6px;
+  }
+
+  .title {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+
+  .delete-button {
+    border: solid 2px #ff0b37;
+    border-radius: 8px;
+    padding: 0px 15px 0px 15px;
+    margin-right: 30px;
+    font-size: 8px;
+  }
+}
